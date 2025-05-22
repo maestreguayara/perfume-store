@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Perfumería - Tu Esencia Única</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <div class="loading-screen">
+        <div class="loader-logo">AURA</div>
+    </div>
+
+    <header class="main-header">
+        <nav class="navbar container">
+            <div class="logo">
+                <a href="#">AURA</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link-item active">Inicio</a></li>
+                <li><a href="#categories" class="nav-link-item">Colecciones</a></li>
+                <li><a href="#featured" class="nav-link-item">Destacados</a></li>
+                <li><a href="#art-of-perfumery" class="nav-link-item">El Arte</a></li>
+                <li><a href="#philosophy" class="nav-link-item">Filosofía</a></li>
+                <li><a href="#contact" class="nav-link-item">Contacto</a></li>
+            </ul>
+            <div class="header-actions">
+                <button class="search-btn" aria-label="Buscar">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="22px" height="22px"><path d="M0 0h24v24H0z" fill="none"/><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+                </button>
+                <button class="cart-btn" aria-label="Carrito">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24px" height="24px"><path d="M0 0h24v24H0z" fill="none"/><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2S15.9 22 17 22s2-.9 2-2-.9-2-2-2zm-1.7-8.96l-1.41-1.41-9.9 9.9L5.41 19 15.3 9.13c.39-.39.39-1.02 0-1.41zM19 9h-2V7c0-2.76-2.24-5-5-5S7 4.24 7 7v2H5c-1.1 0-2 .9-2 2v9c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V11c0-1.1-.9-2-2-2zm-7-3c1.66 0 3 1.34 3 3v2H9V7c0-1.66 1.34-3 3-3z"/></svg>
+                    <span class="cart-count">0</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <section id="hero" class="hero-section">
+                <div class="hero-background-text" aria-hidden="true">AURA</div>
+                <div class="hero-content container">
+                    <div class="hero-text">
+                        <h1 class="hero-title" data-splitting="chars">Descubre tu <br> Aura Única</h1>
+                        <p class="hero-subtitle">Perfumes exclusivos que narran historias, elaborados con la más pura esencia de la naturaleza y la sofisticación.</p>
+                        <a href="#categories" class="btn btn-primary btn-hero-cta">Explorar Colección</a>
+                    </div>
+                    <div class="hero-image-container">
+                        <img src="images/hero-perfume.png" alt="Perfume insignia de Aura Perfumería" class="hero-perfume-img">
+                    </div>
+                </div>
+            </section>
+
+            <section id="categories" class="categories-section">
+                <div class="container">
+                    <h2 class="section-title" data-splitting="chars">Nuestras Colecciones</h2>
+                    <div class="categories-grid">
+                        <div class="category-card">
+                            <div class="category-image-wrapper">
+                                <img src="images/category-femenino.jpg" alt="Perfumes Femeninos">
+                            </div>
+                            <div class="category-info">
+                                <h3>Esencias Femeninas</h3>
+                                <p class="category-description">Fragancias que celebran la gracia y el poder interior.</p>
+                                <a href="#" class="btn-link category-cta">Descubrir <span class="arrow">&rarr;</span></a>
+                            </div>
+                        </div>
+                        <div class="category-card">
+                            <div class="category-image-wrapper">
+                                 <img src="images/category-masculino.jpg" alt="Perfumes Masculinos">
+                            </div>
+                            <div class="category-info">
+                                <h3>Aromas Masculinos</h3>
+                                <p class="category-description">Notas audaces para el hombre contemporáneo y carismático.</p>
+                                <a href="#" class="btn-link category-cta">Descubrir <span class="arrow">&rarr;</span></a>
+                            </div>
+                        </div>
+                        <div class="category-card">
+                            <div class="category-image-wrapper">
+                                <img src="images/category-unisex.jpg" alt="Perfumes Unisex">
+                            </div>
+                            <div class="category-info">
+                                <h3>Firmas Unisex</h3>
+                                <p class="category-description">Esencias versátiles que desafían convenciones y unen mundos.</p>
+                                <a href="#" class="btn-link category-cta">Descubrir <span class="arrow">&rarr;</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="featured" class="featured-section">
+                <div class="container">
+                    <h2 class="section-title" data-splitting="chars">Joyas Olfativas</h2>
+                    <div class="featured-grid">
+                        <div class="product-card">
+                            <div class="product-image-wrapper">
+                                <img src="images/perfume1.png" alt="Nombre del Perfume Exquisito">
+                                <span class="product-tag new">Nuevo</span>
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Éclat Nocturne</h3>
+                                <p class="product-brand">Maison de Aura</p>
+                                <p class="product-price">$185.00</p>
+                                <button class="btn btn-secondary btn-add-to-cart">Añadir al Carrito</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image-wrapper">
+                                <img src="images/perfume2.png" alt="Nombre del Perfume Seductor">
+                                 <span class="product-tag bestseller">Más Vendido</span>
+                            </div>
+                             <div class="product-info">
+                                <h3 class="product-name">Sillage Doré</h3>
+                                <p class="product-brand">Artisan Parfums</p>
+                                <p class="product-price">$210.00</p>
+                                <button class="btn btn-secondary btn-add-to-cart">Añadir al Carrito</button>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <div class="product-image-wrapper">
+                                <img src="images/perfume3.png" alt="Nombre del Perfume Fresco">
+                            </div>
+                            <div class="product-info">
+                                <h3 class="product-name">Brise Matinale</h3>
+                                <p class="product-brand">Atelier Naturel</p>
+                                <p class="product-price">$150.00</p>
+                                <button class="btn btn-secondary btn-add-to-cart">Añadir al Carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="art-of-perfumery" class="horizontal-scroll-section">
+                <div class="container art-of-perfumery-title-container">
+                    <h2 class="section-title" data-splitting="chars">El Arte de la Perfumería</h2>
+                </div>
+                <div class="pin-wrapper">
+                    <div class="horizontal-panel-container">
+                        <div class="horizontal-panel panel-1">
+                            <img src="images/horizontal-1.jpg" alt="Ingredientes naturales para perfumes">
+                            <p>Ingredientes Puros: Seleccionamos a mano las flores más raras y las especias más exóticas de rincones olvidados del mundo.</p>
+                        </div>
+                        <div class="horizontal-panel panel-2">
+                             <img src="images/horizontal-2.jpg" alt="Proceso de destilación de perfumes">
+                            <p>Destilación Maestra: Técnicas ancestrales y secretos de alquimistas, combinados con innovación para extraer la esencia perfecta.</p>
+                        </div>
+                        <div class="horizontal-panel panel-3">
+                            <img src="images/horizontal-3.jpg" alt="Frasco de perfume elegante">
+                            <p>Diseño Exclusivo: Cada frasco es una escultura, una obra de arte que custodia la joya líquida que contiene, prometiendo una experiencia única.</p>
+                        </div>
+                        <div class="horizontal-panel panel-4">
+                            <img src="images/horizontal-4.jpg" alt="Persona disfrutando de un perfume">
+                            <p>Tu Firma Personal: Un perfume que se funde con tu piel, convirtiéndose en una extensión inolvidable de tu ser, tu aura.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="philosophy" class="philosophy-section">
+                <div class="container">
+                    <div class="philosophy-content">
+                        <div class="philosophy-text">
+                            <h2 class="section-title" data-splitting="chars">Nuestra Filosofía</h2>
+                            <p class="philosophy-intro">En <strong>Aura Perfumería</strong>, creemos que un perfume es más que una fragancia: es una armadura invisible, una firma personal, un eco de tus emociones más profundas.</p>
+                            <p class="philosophy-body">Nuestra misión es capturar la esencia de momentos, recuerdos y sueños en cada botella, ofreciendo una experiencia olfativa que trasciende lo ordinario. Nos dedicamos a la alquimia de la perfumería, fusionando tradición y modernidad, naturaleza y arte. Cada creación es un viaje sensorial, diseñado para despertar tu aura y contar tu historia al mundo.</p>
+                            <a href="#" class="btn btn-primary btn-philosophy-cta">Conoce Nuestra Historia</a>
+                        </div>
+                        <div class="philosophy-image-wrapper">
+                            <img src="images/about-image.jpg" alt="Ingredientes y frascos de Aura Perfumería" class="philosophy-main-image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="parallax-section">
+                <div class="parallax-bg" data-bg-src="images/parallax-bg.jpg"></div>
+                <div class="parallax-content container">
+                    <h3 data-splitting="chars">"El perfume es la forma más intensa del recuerdo." - Jean Paul Guerlain</h3>
+                </div>
+            </section>
+
+            <section id="contact" class="contact-section">
+                <div class="container">
+                    <h2 class="section-title" data-splitting="chars">Conecta con Aura</h2>
+                    <p class="contact-subtitle">Suscríbete para descubrir lanzamientos exclusivos, eventos privados y el arte detrás de nuestras esencias.</p>
+                    <form class="contact-form">
+                        <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                        <button type="submit" class="btn btn-primary">Suscribirme</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h4>AURA Perfumería</h4>
+                    <p>Descubre tu esencia, define tu aura.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#categories">Colecciones</a></li>
+                        <li><a href="#featured">Destacados</a></li>
+                        <li><a href="#">Novedades</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Envíos y Devoluciones</a></li>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Términos de Servicio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Síguenos</h4>
+                    <div class="social-media-icons">
+                        <a href="#" aria-label="Facebook" class="social-icon"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 2.04C6.48 2.04 2 6.52 2 12s4.48 9.96 10 9.96c5.52 0 10-4.48 10-9.96S17.52 2.04 12 2.04zM13.5 10H15v-2h-1.5V6.5h-2V8H10v2h1.5v4.5h2V10z"/></svg></a>
+                        <a href="#" aria-label="Instagram" class="social-icon"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8 1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3z"/></svg></a>
+                        <a href="#" aria-label="Pinterest" class="social-icon"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M12,4A8,8 0 0,1 20,12C20,13.09 19.72,14.12 19.23,15C19.23,15 18.05,14.69 17.9,14.32C17.5,13.32 16.83,11.41 16.83,11.41C16.83,11.41 16.7,10.73 16.33,10.33C16,10 15.5,10 15.17,10C14.58,10 14.09,10.41 14.09,11.08C14.09,11.56 14.42,12.31 14.42,12.31L13.66,15.25C13.41,16.41 12.5,16.83 11.76,16.74C10.68,16.62 9.93,15.5 9.93,14.34C9.93,12.83 10.95,11.5 10.95,11.5L11.63,8.72C11.63,8.72 11.38,8.25 11.38,7.75C11.38,6.94 11.91,6.25 12.69,6.25C13.27,6.25 13.68,6.54 13.68,7.05C13.68,7.38 13.46,8.15 13.46,8.15L13,9.66C13,9.66 13.59,10.14 14.18,10.14C15.42,10.14 16.27,8.89 16.27,7.63C16.27,6.06 14.94,4.82 13.18,4.82C11.06,4.82 9.5,6.32 9.5,8.15C9.5,8.78 9.72,9.36 10.13,9.71L9.68,11.62C9.68,11.62 9.14,11.8 8.85,12.63C8.62,13.29 8.78,14.21 8.78,14.21C8.78,14.21 8.22,16.18 7.71,16.63C7.2,17.08 6.5,16.83 6.5,16.83C6.5,16.83 6.94,15.32 7.15,14.74C7.5,13.74 8.17,11.83 8.17,11.83S7.83,10.93 7.53,9.93C7.23,8.93 6.83,7.55 7.43,6.75C8.03,5.95 9.27,5.75 10.13,6.43L10.5,6.74L10.3,6.23C10.48,5.66 11.14,5.05 12,5.05C12.86,5.05 13.53,5.66 13.7,6.23L13.5,6.74L13.88,6.43C14.73,5.75 15.97,5.95 16.57,6.75C17.17,7.55 16.78,8.93 16.48,9.93C16.18,10.93 15.83,11.83 15.83,11.83L16.5,13.74C16.85,14.74 17.5,16.63 17.5,16.63C17.5,16.63 17.06,18.13 16.85,18.71C16.68,19.28 15.97,19.9 15,19.9C14.03,19.9 13.32,19.28 13.15,18.71L12.93,18.08C12.93,18.08 12.66,18.5 12,18.5C11.34,18.5 10.78,18.08 10.78,18.08L10.57,18.71C10.4,19.28 9.68,19.9 8.71,19.9C7.73,19.9 7.03,19.28 6.85,18.71C6.68,18.13 6.5,16.83 6.5,16.83C6.5,16.83 5.95,17.08 5.45,16.63C4.95,16.18 4.78,14.21 4.78,14.21C4.78,14.21 4.62,13.29 4.85,12.63C5.14,11.8 5.68,11.62 5.68,11.62L6.13,9.71C5.72,9.36 5.5,8.78 5.5,8.15C5.5,6.32 6.94,4.82 9.18,4.82C10.94,4.82 12.27,6.06 12.27,7.63C12.27,8.89 11.42,10.14 10.18,10.14C9.59,10.14 9,9.66 9,9.66L9.46,8.15C9.46,8.15 9.68,7.38 9.68,7.05C9.68,6.54 9.27,6.25 8.69,6.25C7.91,6.25 7.38,6.94 7.38,7.75C7.38,8.25 7.63,8.72 7.63,8.72L6.95,11.5C6.95,11.5 5.93,12.83 5.93,14.34C5.93,15.5 6.68,16.62 7.76,16.74C8.5,16.83 9.41,16.41 9.66,15.25L10.42,12.31C10.42,12.31 10.09,11.56 10.09,11.08C10.09,10.41 10.58,10 11.17,10C11.5,10 12,10 12.33,10.33C12.7,10.73 12.83,11.41 12.83,11.41L13.5,13.32C13.65,13.69 14.78,15 14.78,15C15.28,14.12 15.72,13.09 15.72,12A8,8 0 0,1 12,4Z"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Aura Perfumería. Diseñado con Pasión y Precisión.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lenis@1.0.45/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"></script>
+    <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
